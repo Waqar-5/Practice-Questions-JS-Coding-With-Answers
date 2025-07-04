@@ -26,7 +26,7 @@ alert("Hello... I can run JS through my web browser’s console");
 
 
 
-document.write("**************************************************************")
+document.write("************************************************************** <br>")
 
 
 
@@ -93,16 +93,16 @@ alert("I am learning from the Book " + book)
 
 
 // Q#8 Write a script to display this in browser through JS
-document.write("Yah! I can write HTML content through JavaScript")
+document.write(" Yah! I can write HTML content through JavaScript <br>")
 
 
 // Q#9 Store following string in a variable and show in alert and
 // browser through JS
 // “▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”
 
-document.write("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬")
+document.write("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬ <br>")
 
-document.write("**************************************************************")
+document.write("**************************************************************<br>")
 
 
 
@@ -126,7 +126,7 @@ alert("You have visisted this site " + visitedTimes + " times.")
 //Q#3: Declare a variable called birthYear & assign to it your
 // birth year. Show the following message in your browser:
 var birthYear = 2006
-document.write(`My birth year is ${birthYear}. <br> Data type of my declared variable is number`)
+document.write(`My birth year is ${birthYear}. <br> Data type of my declared variable is number <br>`)
 
 
 
@@ -146,7 +146,7 @@ var productTitle = "T-shirt(s)";
 var quantity = 5;
 
 //   // Step 2: Display the message in the browser
-document.write(visitorName + " ordered " + quantity + " " + productTitle + " on XYZ Clothing.");
+document.write(visitorName + " ordered " + quantity + " " + productTitle + " on XYZ Clothing. <br>");
 
 
 
@@ -207,7 +207,7 @@ document.write("<p>Variable names should not be JS <b>keywords</b> </p>.")
 
 
 
-document.write("**************************************************************")
+document.write("************************************************************** <br>")
 
 
 
@@ -300,7 +300,8 @@ document.write("<br> The remainder is: " + num)
 var perTicket = 600
 var tickets = 5
 var result = perTicket * tickets
-document.write("<br> Total cost to buy " + tickets + " tickets to a movie is " + result + "PKR.")
+document.write("<h2>Total Ticket Price collection!</h2>")
+document.write("Total cost to buy " + tickets + " tickets to a movie is " + result + "PKR.")
 
 
 
@@ -331,6 +332,7 @@ document.write(num + " × 10 = " + (num * 10) + "<br>");
 // d. Convert it to Celsius & output “NNoF is NNoC”.
 
 
+document.write("<br><h2>Interchanging in temperature.</h2>")
 // a. Store a Celsius temperature into a variable
 var celsius = 25
 
@@ -403,14 +405,14 @@ document.write("Percentage: " + percentage + "%");
 // Currency conversion in a single expression
 var dollar1InPKR = 104.80
 var riyal1InpKR = 28
-var TotalPKR = (10 * dollar1InPKR) + (25 * riyal1InpKR)
+// var TotalPKR = (10 * dollar1InPKR) + (25 * riyal1InpKR)
 
 var totalPKR = (10 * 104.80) + (25 * 28);
 
 // show result
 document.write("<h2>Currency in PKR</h2>");
 document.write("Total Currency in PKR: " + totalPKR)
-document.write("Total Currency in PKR: " + TotalPKR)
+// document.write("Total Currency in PKR: " + TotalPKR)
 
 
 // Q#10 Write a program to initialize a variable with some  number and do arithmetic in following sequence:
@@ -526,14 +528,14 @@ var totalNeeded = yearsRemaining * 365 * amountPerDay;
   document.write("Current Age: " + currentAge + "<br>");
   document.write("Estimated Maximum Age: " + maxAge + "<br>");
   document.write("Amount Per Day: " + amountPerDay + "<br><br>");
-  document.write("You will need " + totalNeeded + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge + ".");
+  document.write("You will need " + totalNeeded + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge + ". <br>");
 
 
 
 
 
 
-  document.write("**************************************************************")
+  document.write("************************************************************** <br>")
 
 
 
@@ -599,10 +601,10 @@ var result =  --a - --b + ++b + b--;
 // // document.write("++b = 1 (b becomes 1 again)<br>");
 // // document.write("b-- = 1 (used as 1, then b becomes 0)<br>");
 
-document.write("\nFinal Result: ");
+document.write("<br> <br>Final Result: ");
 document.write("<br> a =", a);       // should be 1
 document.write("<br> b =", b);       // should be 0
-document.write("<br> result =", result); // should be 3
+document.write("<br> result =", result + "<br>"); // should be 3
 
 
 
@@ -668,9 +670,9 @@ userInput = Number(userInput); // Convert to number
   var overallPerc = (totalObtained / totalMarks) * 100;
 
   // Display table
-  document.write("<h3>Subject Total Marks Obtained Marks Percentage</h3>");
+  // document.write("<h3>Subject Total Marks Obtained Marks Percentage</h3>");
   document.write("<table>");
-  document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
+  document.write("<br> <tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
   document.write("<tr><td>" + sub1 + "</td><td>100</td><td>" + mark1 + "</td><td>" + Math.round(perc1) + "%</td></tr>");
   document.write("<tr><td>" + sub2 + "</td><td>100</td><td>" + mark2 + "</td><td>" + Math.round(perc2) + "%</td></tr>");
   document.write("<tr><td>" + sub3 + "</td><td>100</td><td>" + mark3 + "</td><td>" + Math.round(perc3) + "%</td></tr>");
